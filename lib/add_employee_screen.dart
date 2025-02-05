@@ -1,7 +1,6 @@
-
 import 'package:flutter/material.dart';
 
-import 'employee_form_widget.dart';
+import 'widgets/employee_form_widget.dart';
 
 class AddEmployeeScreen extends StatelessWidget {
   final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
@@ -13,7 +12,6 @@ class AddEmployeeScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Add Employee'),
-
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
